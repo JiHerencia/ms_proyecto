@@ -6,7 +6,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/roberthmerino/msproyecto.git
+          uri: https://github.com/JiHerencia/msproyecto
           searchPaths: config-data
           username: enero.lari@gmail.com
           password: Leyenda,15
@@ -14,4 +14,4 @@ spring:
   security:
     user:
       name: admin
-      password: 12345678 
+      password: 1234
