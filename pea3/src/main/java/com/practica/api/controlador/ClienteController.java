@@ -30,7 +30,7 @@ import com.practica.api.modelo.Cliente;
 
 import com.practica.api.servicio.ClienteService;
 @RestController
-@RequestMapping(value = "/pago")
+@RequestMapping(value = "/cliente")
 public class ClienteController {
 	
 	@Autowired

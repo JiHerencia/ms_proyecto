@@ -43,7 +43,7 @@ public class EmpleadoController {
 		return ResponseEntity.ok(empleado);
 	}
 	
-	/*/@GetMapping("/")
+	/*@GetMapping("/")
 	@RequestMapping(value = "/", method = RequestMethod.GET)
 	public ResponseEntity<List<DetalleVenta>> ListarPago(@RequestParam(name = "productoId",
 	required = false) Long productoId) {
