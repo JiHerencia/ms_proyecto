@@ -1,0 +1,17 @@
+server:
+  port: 8082
+  
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/JiHerencia/msproyecto
+          searchPaths: config-data
+          username: enero.lari@gmail.com
+          password: Leyenda,15
+          default-label: "main"
+  security:
+    user:
+      name: admin
+      password: 1234
